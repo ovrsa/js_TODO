@@ -2,7 +2,6 @@
 const form = document.getElementById("form");
 const input = document.getElementById("input");
 const ul = document.getElementById("ul");
-
 const todos = JSON.parse(localStorage.getItem("todos"));
 
 if (todos) {
@@ -66,7 +65,3 @@ function saveDate() {
   localStorage.setItem("todos", JSON.stringify(todos));
 }
 
-
-// todoを完了/
-
-// todoを削除/
